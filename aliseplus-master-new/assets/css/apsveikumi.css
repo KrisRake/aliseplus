@@ -1,0 +1,269 @@
+body{
+    background: url('../img/gradient6.png') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.apsveikumibox1{
+    width: 425px !important;
+    height: auto;
+    margin-right: 62px;
+}
+
+
+@media (max-width:1175px){
+
+    .apsveikumi {
+        width: 411px !important;
+        height: 359.33px;
+        display: block !important;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 10% !important;
+    }
+    .apsveikumibox1{
+        margin-right: 0;
+        margin-bottom: 150px;
+    }
+    .apsveikumibox2{
+        margin-top: 71px;
+        margin-left: 0px !important;
+    }
+}
+@media (max-width:768px){
+
+    body{
+        background: url('../img/gradient66.png');
+        overflow-x: hidden;
+    }
+    .apsveikumibox1{
+        width: 299px;
+    }
+    .apsveikumibox2{
+        margin-top: 71px;
+    }
+
+}
+@media (max-width:474px){
+    .apsveikumicon {
+        width: 280px;
+        height: 359.33px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .form-border{
+        width: 280px;
+    }
+    .apsveikumibox1{
+        width: 299px;
+        margin: auto;
+    }
+    .apsveikumibox2{
+        margin: 70px auto auto auto;
+
+    }
+}
+
+.arrowsize{
+    width: 7.74px;
+    height: 14.96px;
+    margin: auto 0 auto 0;
+}
+
+.apsveikumi{
+    width: 924.71px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 55px auto 0 244px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.apsveikumibox1{
+    width: 425px;
+    height: auto;
+    margin-right: 62px;
+}
+.apsveikumibox2{
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
+}
+.form-border{
+    width: 374.48px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 29px;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-border-big {
+    width: 374.48px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 130px;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-border-row{
+    width: 170px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 29px;
+    resize: none;
+    overflow: hidden;
+}
+textarea:focus{
+    border: 2px solid #FF81C0;
+    outline: none !important;
+}
+.sutit-button{
+    padding: 10px 20px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    width: 178px;
+    height: 41px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 35px;
+}
+
+.height1 {
+    margin-bottom: 15px;
+}
+
+
+.apsveikumu-date {
+    width: 170px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.btn-laiks {
+    width: 170px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.number_change {
+    display: flex !important;
+    margin-top: 10px;
+}
+
+#border-number{
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    margin: auto 10px auto 11px;
+    text-align: center;
+    padding: 0px 13px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#apsveikumu_illu{
+    position: absolute;
+    z-index: -1;
+    width: 358.01px;
+    height: 364.12px;
+
+}
+.boxs6{
+    position: absolute;
+width: 358.01px;
+height: 374.12px;
+top: 809.87px;
+right: 100px;
+}
+.illubox5{
+    width: 358.01px;
+    height: 374.12px;
+    position: relative;
+    overflow: hidden;
+}
+@media(max-width:768px){
+    .boxs6{
+        top: 1526.87px;
+        right: 75px;
+    }
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.dis{
+    display: none;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:600px){
+    .boxs6{
+        top: 1526.87px;
+        right: 0px;
+    }
+    #apsveikumu_illu{
+        position: absolute;
+        z-index: -1;
+        width: 358.01px;
+        height: 364.12px;
+        right: -109px;
+    }
+    .flex{
+        flex-direction: column;
+        width: auto;
+    }
+    .form-border-row, .form-border, .form-border-big{
+        width: 280px;
+    }
+    label{
+        width: 280px;
+    }
+    .btn-laiks,.apsveikumu-date{
+        width: 130px;
+    }
+    .dis{
+        display: block;
+    }
+    #border-number{
+        margin-left: 0px;
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    .width{
+        width: 66px;
+    }
+    .apsveikumibox1, .apsveikumi, .apsveikumibox2{
+        width: 280px !important;
+        margin: auto;
+    }
+    .sutit-button{
+        margin-bottom: 130px;
+    }
+}
+
+

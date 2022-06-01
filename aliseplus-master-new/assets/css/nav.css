@@ -1,0 +1,650 @@
+.aa{
+    width: 48px;
+height: 24px;
+margin-top: -1px;
+}
+#logo{
+    background-image: url('../assets/img/alisepluslogo.png');
+    width: 327.94px;
+    height: 84.16px;
+    margin: 0px 0 0px 60px; 
+}
+.header{
+    margin: 18px 0 29px 0px;
+    width: 100%;
+}
+.header-right{
+    width: 377.3px;
+    height: 94.27px;
+    float: right;
+    font-family: 'Poppins-black';
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: -143px 49px 0 0;
+}
+.radio{
+    margin: 10px 0 0 15px;
+    font-size: 38px;
+    display: flex;
+    flex-direction: row;
+}
+.fm{
+    margin: 2px 0 0 10px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.playbutton{
+    width: 94px;
+    margin: -5px 6px 7px 20px;
+}
+.headermusic{
+    width: 30px;
+    height: 42px;
+    margin: 15px 0 0 10px;
+    color: black;
+}
+p.music{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+@media (max-width:1023px){
+    #logo{
+        width: 256.39px;
+        height: 65.8px;
+        filter: invert(100%);
+    }
+    .header{
+        margin: 18px 0 29px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-right{
+        align-content: center;
+        text-align: center;
+        width: 207px;
+        height: 94.27px;
+        float: right;
+        font-family: 'Poppins-black';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 200px auto 0 auto;
+    }
+    .radio{
+        margin: 13px 0 26px 0px;
+        font-size: 53px;
+        width: 207px;
+        height: 47.61px;
+    }
+    .fm{
+        margin: 14px 0 0 10px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .playbutton{
+        margin: 0 0 0 23px;
+        width: 161px;
+        height: 161px;
+    }
+    .headermusic{
+        width: 151px;
+        height: 72px;
+        margin: 22px 0 0 27px;
+        color: black;
+        font-size: 24px;
+    }
+    p.music{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+@media (max-width:425px){
+    #logo{
+        width: 126.06px;
+        height: 29.27px;
+        filter: invert(100%);
+    }
+    .header{
+        margin: 18px 0 29px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-right{
+        align-content: center;
+        text-align: center;
+        width: 207px;
+        height: 94.27px;
+        float: right;
+        font-family: 'Poppins-black';
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 200px auto 0 auto;
+    }
+    .radio{
+        margin: 13px auto 26px auto;
+        font-size: 31px;
+        width: 120.73px;
+        height: 27.72px;
+        word-spacing: 8px;
+    }
+    .fm{
+        margin: -2px 0 0 8px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 54px;
+    }
+    .playbutton{
+        margin: 0 auto 0 auto;
+        width: 94.27px;
+        height: 94.27px;
+    }
+    .headermusic{
+        width: 88px;
+        height: 42px;
+        margin: 22px auto 0 auto;
+        color: black;
+        font-size: 14px;
+    }
+    p.music{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+.bg-custom{
+    background: rgba(179, 173, 215, 0.5);
+}
+@media (max-width: 1023px) {
+    .bg-custom{
+        background: rgba(179, 173, 215, 0);
+    }
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        width: 384px;
+        height: 806px;
+        background: #B3ADD7;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .navbar-collapse.collapsing {
+        right: 100%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+
+      
+}
+
+nav{
+    margin: 29px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+    height: 34px;
+    padding: 0 !important;
+}
+
+.white-item{
+    width: 91px;
+    height: 34px;
+    font-family: 'Poppins-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+transition: 200ms;
+
+}
+@media (min-width:1024px)
+{
+    .white-item:hover{
+        background-color: white;
+        }
+}
+
+.nav-link{
+    color: black;
+    padding: 0rem !important;
+    height: 24px;
+    transition: 200ms;
+}
+.nav-link:hover{
+    color: black;
+}
+@media (max-width:1023px)
+{
+    .nav-link:hover{
+        color: white;
+    }
+    
+}
+.container {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.homepage{
+width: 171px;
+margin: 0 0 0 30px;
+}
+
+.homepage2{
+    width: 91px;
+    margin: 5px 40px 5px 40px;
+}
+.aps{
+    width: 171px;
+}
+.aps2{
+    width: 91px;
+    margin: 5px 40px 5px 40px;
+}
+.biroj{
+    width: 269px;
+}
+.biroj2{
+    width: 189px;
+    margin: 5px 40px 5px 40px;
+}
+.raidi{
+    width: 157px;
+}
+.raidi2{
+    width: 77px;
+    margin: 5px 40px 5px 40px;
+}
+.par{
+    width: 162px;
+}
+.par2{
+    width: 82px;
+    margin: 5px 40px 5px 40px;
+}
+.kontact{
+    width: 156px;
+}
+.kontact2{
+    width: 76px;
+    margin: 5px 40px 5px 40px;
+}
+@media (max-width:1319px){
+    .homepage{
+        width: 141px;
+        }
+    .homepage2{
+        width: 91px;
+        margin: 5px 20px 5px 20px;
+    }
+    .aps{
+        width: 131px;
+    }
+    .aps2{
+        width: 91px;
+        margin: 5px 20px 5px 20px;
+    }
+    .biroj{
+        width: 229px;
+    }
+    .biroj2{
+        width: 189px;
+        margin: 5px 20px 5px 20px;
+    }
+    .raidi{
+        width: 117px;
+    }
+    .raidi2{
+        width: 77px;
+        margin: 5px 20px 5px 20px;
+    }
+    .par{
+        width: 122px;
+    }
+    .par2{
+        width: 82px;
+        margin: 5px 20px 5px 20px;
+    }
+    .kontact{
+        width: 116px;
+    }
+    .kontact2{
+        width: 76px;
+        margin: 5px 20px 5px 20px;
+    }
+
+}
+@media (max-width:1101px){
+    .homepage{
+        width: 121px;
+        margin: 0 0 0 15px;
+        }
+    .homepage2{
+        width: 91px;
+        margin: 5px 10px 5px 10px;
+    }
+    .aps{
+        width: 111px;
+    }
+    .aps2{
+        width: 91px;
+        margin: 5px 10px 5px 10px;
+    }
+    .biroj{
+        width: 209px;
+    }
+    .biroj2{
+        width: 189px;
+        margin: 5px 10px 5px 10px;
+    }
+    .raidi{
+        width: 97px;
+    }
+    .raidi2{
+        width: 77px;
+        margin: 5px 10px 5px 10px;
+    }
+    .par{
+        width: 102px;
+    }
+    .par2{
+        width: 82px;
+        margin: 5px 10px 5px 10px;
+    }
+    .kontact{
+        width: 96px;
+    }
+    .kontact2{
+        width: 76px;
+        margin: 5px 10px 5px 10px;
+    }
+}
+
+
+.homepageru{
+    width: 210px;
+    margin: 0 0 0 30px;
+    }
+    
+    .homepage2ru{
+        width: 130px;
+        margin: 5px 40px 5px 40px;
+    }
+    .birojru{
+        width: 210px;
+    }
+    .biroj2ru{
+        width: 130px;
+        margin: 5px 40px 5px 40px;
+    }
+    .raidiru{
+        width: 164px;
+    }
+    .raidi2ru{
+        width: 84px;
+        margin: 5px 40px 5px 40px;
+    }
+    .parru{
+        width: 129px;
+    }
+    .par2ru{
+        width: 49px;
+        margin: 5px 40px 5px 40px;
+    }
+    .kontactru{
+        width: 165px;
+    }
+    .kontact2ru{
+        width: 85px;
+        margin: 5px 40px 5px 40px;
+    }
+    @media (max-width:1319px){
+        .homepageru{
+            width: 170px;
+            margin: 0 0 0 30px;
+            }
+            
+            .homepage2ru{
+                width: 130px;
+                margin: 5px 20px 5px 20px;
+            }
+            .birojru{
+                width: 170px;
+            }
+            .biroj2ru{
+                width: 130px;
+                margin: 5px 20px 5px 20px;
+            }
+            .raidiru{
+                width: 124px;
+            }
+            .raidi2ru{
+                width: 84px;
+                margin: 5px 20px 5px 20px;
+            }
+            .parru{
+                width: 89px;
+            }
+            .par2ru{
+                width: 49px;
+                margin: 5px 20px 5px 20px;
+            }
+            .kontactru{
+                width: 125px;
+            }
+            .kontact2ru{
+                width: 85px;
+                margin: 5px 20px 5px 20px;
+            }
+    
+    }
+@media (max-width:1023px){
+    .homepageru{
+        margin: 0 0 0 0px;
+        }
+        .white-item{
+            width: 91px;
+            height: 34px;
+            margin: 0 0 15px 0;
+        }
+        .firstpage{
+            display: none;
+        }
+        
+}
+.fb{
+    Width:13.83px;
+    Height:13.72px;
+    margin: 10.62px 32px 0 0;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+
+    margin: 12px 0 0 0;
+}
+.right-nav{
+    width: 123px;
+    height: 34px;
+
+    display: flex !important;
+    flex-direction: row!important; 
+}
+.LV{
+    margin: -7px 11px 0 0;
+    font-family: 'Poppins-black';
+}
+.LV, .RU{
+    Width:16.12px;
+Height:11.15px;
+
+}
+.RU{
+    margin: -7px 16px 0 0;
+    font-family: 'Poppins-regular';
+}
+.aa{
+    width: 17.95px;
+height: 11.09px;
+}
+
+@media (max-width: 1023px){
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    }
+    .right-nav{
+        display: flex;
+        flex-direction: row-reverse !important;
+        margin: 12px 0 64px -147px;
+    }
+    .RU {
+        margin: -7px 28px 0 0;
+    }
+    
+    .fb {
+
+        margin: 10.62px 32px 0 25px;
+    }
+}
+.w-100 {
+    width: 100%!important;
+    margin-left: 20px !important;
+}
+@media (min-width: 1024px){
+    .navbar-expand-custom .navbar-toggler {
+        justify-content:end;
+        z-index: 1;
+        margin-top: -182px;
+        
+    }
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .dropdown-menu {
+        position: absolute;
+    }
+    .navbar-expand-custom .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom > .container {
+        flex-wrap: nowrap;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+.gone{
+    opacity: 0;
+    display: none;
+}
+.mr-custom, .mx-custom {
+    margin-left: auto;
+}
+@media (max-width: 1024px){
+    .navbar-expand-custom .navbar-toggler {
+        justify-content:end;
+        z-index: 1;
+        margin-top: -182px;
+        
+    }
+}
+@media (max-width: 425px)
+{
+    .butn-margin {
+
+        margin-top: -130px !important;
+    }
+}
+.programm{
+    width: 201px;
+    height: 41px;
+font-family: 'Poppins-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #554F4F;
+background-color: white;
+border: 0px solid white;
+border-radius: 20px;
+text-align: center;
+position: absolute;
+    margin: 370px 0 0 -162px;
+}
+@media (min-width:1024px){
+    .programm{
+        display: none;
+    } 
+}
+
+@media (max-width: 425px) {
+    .navbar-collapse {
+        width: 300px;
+        height: 806px;
+    }
+    .programm{
+        margin: 370px 0 0 -60px;
+    }
+    .boxes{
+        width: 300px;
+    }
+    .right-nav {
+        margin: 14px 0 64px -62px !important;
+    }
+}
