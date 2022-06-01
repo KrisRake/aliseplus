@@ -1,0 +1,510 @@
+
+body{
+    background: url('../img/background_gradient.png') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+@media (max-width:1440px){
+    body{
+        background: url('../img/background_gradient.png') center;
+        overflow-x: hidden;
+    }
+}
+@media(max-width:1439px){
+
+.birojheader{
+    display: flex;
+    margin-top: 74px !important;
+    height: 54px;
+    width: 1032px;
+    margin: auto;
+    flex-direction: row;
+}
+.topbiroj{
+
+    display: flex;
+    flex-direction: row;
+}
+.lostandfoundbutton{
+    width: 237.02px;
+    height: 64px;
+    padding: 20px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: #CEB4F5;
+    border-radius: 40px;
+    text-align: center;
+    border: 0px;
+    margin-left: 97px;
+}
+}
+.backarrow{
+    margin-left: 73px; 
+    margin-top: 74px !important;
+
+    margin-right: 141px;
+}
+    .birojheader{
+        display: flex;
+        margin: auto;
+        height: 54px;
+        width: 1432px;
+        flex-direction: row;
+    }
+
+    .topbiroj{
+        display: flex;
+        flex-direction: row;
+    }
+    .lostandfoundbutton{
+        width: 237.02px;
+        height: 64px;
+        padding: 20px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        background: #CEB4F5;
+        border-radius: 40px;
+        text-align: center;
+        border: 0px;
+        margin-left: 397px;
+    }
+@media (max-width:1620px){
+    .birojheader{
+
+        width: 1332px;
+
+    }
+    .lostandfoundbutton{
+
+        margin-left: 297px;
+    }
+}
+@media (max-width:1529px){
+    .birojheader{
+
+        width: 1232px;
+
+    }
+    .lostandfoundbutton{
+
+        margin-left: 197px;
+    }
+}
+@media (max-width:1439px){
+    .birojheader{
+
+        width: 1032px;
+
+    }
+    .lostandfoundbutton{
+
+        margin-left: 30px;
+    }
+    .backarrow{
+        margin-left: 33px; 
+        margin-right: 31px;
+    }
+}
+
+
+
+.birojheader{
+    display: flex;
+    margin-top: 74px !important;
+    height: 54px;
+    width: 1432px;
+    flex-direction: row;
+}
+.top-section{
+    width: 299px;
+    margin-right: 112px;
+
+    font-family: 'Poppins-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+#found, #lost{
+    accent-color: #DFADC6;
+}
+
+@media(max-width:1023px){
+    .display{
+        display: none;
+    }
+    .birojheader{
+        margin: auto !important;
+        width: 650px;
+        text-align: center;
+    }
+}
+@media(max-width:767px){
+    .birojheader{
+        width: 313px !important;
+        flex-direction: column !important;
+    }
+    .button{
+        margin-top: 19px;
+    }
+}
+@media(max-width:767px){
+    .button{
+        margin-top: 19px;
+    }
+}
+@media(max-width:425px){
+    .birojheader{
+        width: 229.18px !important;
+        height: 54px
+    }
+    .lostandfoundbutton {
+        margin-left: 0px;
+    }
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 17.51px;
+height: 17.51px;
+}
+.radiomargin{
+    margin: 0 31px 0 15px;
+}
+.filter{
+    width: 166px;
+height: 27px;
+
+
+/* Poppins H3 */
+
+font-family: 'Poppins-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.lostandfounddata{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    margin-top: 58px;
+    margin-left: 250px;
+}
+.date{
+    width: 260px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+.calendar{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:1023px){
+    .lostandfounddata{
+        flex-direction: column;
+    }
+}
+
+.lafdata{
+    width: 798px;
+    height: 622.97px;
+margin-left:243px ;
+border: 1px solid #554F4F;
+border-radius: 20px 20px 20px 20px;
+margin-top: 17px;
+
+}
+.lafcontent{
+    width: 798px;
+    padding: 10px;
+}
+.d1{
+height: 72px;
+}
+.d2{
+    height: 93px;
+    border-top: 1px solid #554F4F;
+}
+.d3{
+    height: 72px;
+    border-top: 1px solid #554F4F;
+
+}
+.d4{
+    height: 72px;
+    border-top: 1px solid #554F4F;
+
+}
+.d5{
+    height: 93px;
+        border-top: 1px solid #554F4F;
+
+}
+.d6{
+    height: 72px;
+        border-top: 1px solid #554F4F;
+
+}
+.d7{
+    height: 72px;
+        border-top: 1px solid #554F4F;
+
+}
+.d8{
+    height: 72px;
+        border-top: 1px solid #554F4F;
+}
+.heading{
+    width: 100%;
+    height: 21px;
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.leftt{
+    width: 113px;
+height: 21px;
+float: left;
+}
+.rightt{
+    width: 167px;
+    height: 21px;
+float: right;
+text-align: right;
+margin-right: 11px;
+}
+@media(max-width:1160px){
+    .lostandfounddata{
+        flex-direction: column;
+    }
+    .lostandfounddata{
+        margin-left: 50px;
+    }
+    .lafdata{
+
+        margin: 57px auto 24px 50px;
+    }
+}
+@media(max-width:1023px){
+    .lafdata{
+        width: 625.28px;
+        height: 505px;
+
+    }
+    .lafcontent{
+        width: 625.28px;
+        padding: 10px;
+    }
+    .d7{
+        display: none;
+    
+    }
+    .d8{
+        display: none;
+
+    }
+    .d2{
+        height: 123px;
+    }
+}
+@media(max-width:767px){
+    .lafdata{
+        width: 331.74px;
+        height: 667px;
+        margin: 133px auto 24px auto;
+
+    }
+    .lafcontent{
+        width: 330.74px;
+        padding: 10px;
+    }
+    .d1{
+        height: 75.01px;
+    }
+    .d2{
+        height: 171px;
+    }
+    .d3{
+        height: 99px;
+    }
+    .d4{
+        height: 93px;
+    }
+    .d5{
+        height: 135px;
+    }
+    .d6{
+        height: 99px;
+    }
+    .calendar{
+        flex-direction: column;
+        margin: auto;
+        width: 261px;
+    }
+    .date{
+        margin-left: 0;
+    }
+    .top-section{
+        margin: auto;
+    }
+    .lostandfounddata{
+        margin-top: 100px;
+    
+    }
+}
+@media (max-width:425px){
+    .lafdata{
+        width: 280.74px;
+        height: 776px;
+
+
+    }
+    .lafcontent{
+        width: 280.74px;
+        padding: 10px;
+    }
+    .date{
+        width: 200px;
+    }
+    .d1{
+        height: 90.01px;
+    }
+    .d2{
+        height: 186px;
+    }
+    .d3{
+        height: 114px;
+    }
+    .d4{
+        height: 108px;
+    }
+    .d5{
+        height: 163px;
+    }
+    .d6{
+        height: 104px;
+    }
+    .rightt{
+        width: 120px;
+    }
+.top-section{
+    width: 270px;
+}
+    .radiomargin{
+        margin: 0 0 0 5px;
+    }
+}
+.selected{
+    width: 230.64px;
+    height: 30.43px;
+    margin-left: 243px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.double-right{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-left: 17px;
+}
+.arrowsize{
+    width: 7.74px;
+    height: 14.96px;
+    margin: auto 0 auto 0;
+}
+.selectsize{
+    width: 39px;
+    height: 32px;
+
+    margin:auto 10px auto 11px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 5px;
+    transition: 200ms;
+}
+.selectsize:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+@media (max-width:1160px){
+    .selected{
+        margin-left: 50px;
+    }
+}
+@media (max-width:767px){
+    .selected{
+        margin:27px auto 0 auto
+    }
+}
+.header-backarrow{
+margin: 17px 0 auto 73px;
+display: block;
+
+}
+
+@media (min-width:1024px){
+    .header-backarrow{
+       
+        display: none;
+        }
+}
+@media (max-width:1023px){
+    .img{
+       
+        display: flex;
+        flex-direction: row;
+        }
+        #logo{
+            filter: invert(0%)!important;
+        }
+}
+@media (max-width:767px){
+    .img{
+       
+        display: flex;
+        flex-direction: row;
+        }
+        .header-backarrow{
+            margin: 17px 0 auto 15px;
+            display: block;
+            
+            }
+            #logo{
+                margin: auto;
+            }
+        
+}
+@media (max-width:424px){
+
+        .header-backarrow{
+            margin: 0 0 auto 15px;
+            display: block;
+            
+            }      
+}

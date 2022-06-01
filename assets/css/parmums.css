@@ -1,0 +1,122 @@
+body{
+    background: url('../assets/img/gradientparmums.png') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+@media (max-width:1440px){
+    body{
+        background: url('../img/background_gradient.png') center;
+        overflow-x: hidden;
+    }
+}
+#logo2{
+    background-image: url('../assets/img/alisepluslogo.png');
+    width: 327.94px;
+    height: 84.16px;
+    margin: 0px 0 0px 26px; 
+}
+.parmumscon{
+ width: 800px;
+ display: flex;
+ flex-direction: row;
+ margin: 56px auto 0 244px;
+}
+.parmumsbox{
+    width: 368px;
+    height: auto;
+    margin-right: 72px;
+
+}
+.parmumsbox2{
+    width: 375px;
+}
+
+@media (max-width:1439px){
+    .parmumscon{
+        margin: 56px auto 0 93px;
+       }
+}
+@media (max-width:1023px){
+    .parmumscon{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        margin: auto auto auto auto;
+       }
+       .parmumsbox{
+        width: 418px;
+        height: auto;
+        margin-right: 0px;
+    
+    }
+    .parmumsbox2{
+        width: 418px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+}
+@media (max-width:767px){
+    .parmumscon{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        margin: auto auto auto auto;
+       }
+       .parmumsbox{
+        width: 320px;
+        height: auto;
+        margin-right: 0px;
+    
+    }
+    .parmumsbox2{
+        width: 320px;
+        height: auto;
+        margin-top: 50px;
+    }
+    #logo2{
+        margin: auto !important;
+        filter: invert(100%) !important;
+    }
+    
+}
+@media (max-width:424px){
+    .parmumscon{
+        width: 300px;
+       }
+       .parmumsbox{
+        width: 300px;
+    }
+    .parmumsbox2{
+        width: 300px;
+    }
+    .titles-text2 {
+        width: 229.18px;
+        height: 54px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center !important;
+    }  
+}
+
+@media (max-width:1023px){
+    #logo2{
+        width: 256.39px;
+        height: 65.8px;
+        filter: invert(0%);
+    }
+}
+@media (max-width:425px){
+    #logo2{
+        width: 126.06px;
+        height: 29.27px;
+
+    }
+}
