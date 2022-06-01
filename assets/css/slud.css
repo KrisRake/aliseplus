@@ -1,0 +1,106 @@
+.sludcon{
+    width: 924.71px;
+height: 359.33px;
+display: flex;
+flex-direction: row;
+margin: 55px auto 0 244px;
+}
+.sludbox1{
+width: 375px !important;
+height: auto;
+margin-right: 62px;
+}
+.sludbox2{
+    width: 266px;
+    height: auto;
+}
+.form-border{
+    width: 374.48px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 29px;
+    resize: none;
+    overflow: hidden;
+}
+textarea:focus{
+    border: 2px solid #FF81C0;
+    outline: none !important;
+}
+.form-height{
+    height: 89px;
+}
+.sludbutton{
+    padding: 10px 20px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    width: 78px;
+    height: 41px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 35px;
+}
+@media (max-width:1023px){
+    .sludcon {
+        width: 650px;
+        height: 359.33px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .sludbox1{
+        margin-right: 0;
+    }
+    .sludbox2{
+        margin-top: 71px;
+    }
+}
+@media (max-width:767px){
+    .sludcon {
+        width: 420px;
+        height: 359.33px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .sludbox1{
+        width: 299px;
+    }
+    .sludbox2{
+        margin-top: 71px;
+
+    }
+}
+@media (max-width:474px){
+    .sludcon {
+        width: 280px;
+        height: 359.33px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .form-border{
+        width: 280px;
+    }
+    .sludbox1{
+        width: 299px;
+        margin: auto;
+    }
+    .sludbox2{
+        margin: 70px auto auto auto;
+
+    }
+}
+
+#pievienotslud_illu{
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: auto;
+    margin: 170px 10% 200px 50%;
+}

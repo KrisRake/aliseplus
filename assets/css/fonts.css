@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Poppins-black;
+    src: url("../fonts/Poppins-Black.ttf")format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url("../fonts/Poppins-Bold.ttf")format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins-extrabold;
+    src: url("../fonts/Poppins-ExtraBold.ttf")format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url("../fonts/Poppins-Regular.ttf")format('truetype');
+    font-display: swap;
+}
+.titles-text{
+    width: 707px;
+    height: 54px;
+    margin: 145px auto 26px auto;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+@media(max-width:1023px){
+    .titles-text{
+        width: 354px;
+        height: 27px;
+        font-size: 18px;
+    }
+}
+@media(max-width:767px){
+    .titles-text{
+        width: 315px;
+        height: 24px;
+        font-size: 16px;
+    }
+}
+.titles-text2{
+    width: 707px;
+    height: 54px;
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: -9px;
+    text-align: center;
+}
+@media(max-width:1087px){
+    .titles-text2{
+        width: 607px;
+        height: 54px;
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-size: 31px;
+    }
+}
+@media(max-width:1023px){
+    .titles-text2{
+        width: 354px;
+        height: 27px;
+        font-size: 18px;
+    }
+}
+@media(max-width:767px){
+    .titles-text2{
+        width: 315px;
+        height: 24px;
+        font-size: 16px;
+    }
+}
+@media(max-width:425px){
+    .titles-text2{
+        width: 229.18px;
+        height: 54px;      
+        font-family: 'Poppins-regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+    }
+}
+.info-text{
+    font-family: 'Poppins-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+}
+
+@media (max-width:1023px){
+    .info-text{
+        font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    } 
+}
